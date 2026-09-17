@@ -1,0 +1,258 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Glc310qKf1GE8Spwgli-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WYlN1orr9ME9OnIwrST0-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Usuario" vertex="1">
+          <mxGeometry height="1295" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend (React)" vertex="1">
+          <mxGeometry height="1295" width="150" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Backend (Node.js)" vertex="1">
+          <mxGeometry height="1295" width="150" x="776" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Base de Datos (PostgreSQL)" vertex="1">
+          <mxGeometry height="1295" width="215" x="1043" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servicio Email" vertex="1">
+          <mxGeometry height="1295" width="150" x="1308" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-6" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-2" value="Ingresa Email y Password">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-7" parent="WYlN1orr9ME9OnIwrST0-6" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-177.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-8" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-3" value="POST /api/auth/register">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-9" parent="WYlN1orr9ME9OnIwrST0-8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-215.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-10" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="Verifica si email existe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-11" parent="WYlN1orr9ME9OnIwrST0-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-12" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-3" value="Email disponible">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1012" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-13" parent="WYlN1orr9ME9OnIwrST0-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="143" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-14" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="curved=1;endArrow=block;rounded=0;" target="WYlN1orr9ME9OnIwrST0-3" value="Hash de Password (bcrypt)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="902" y="345" />
+              <mxPoint x="902" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-15" parent="WYlN1orr9ME9OnIwrST0-14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-16" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="INSERT User (is_verified: false)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-17" parent="WYlN1orr9ME9OnIwrST0-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-18" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="INSERT Token (tipo: verify_email)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-19" parent="WYlN1orr9ME9OnIwrST0-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-20" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-5" value="Enviar Email de Bienvenida + Link">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-21" parent="WYlN1orr9ME9OnIwrST0-20" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-273.25" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-22" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-2" value="201 Created (Mensaje: &quot;Revisa tu email&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-23" parent="WYlN1orr9ME9OnIwrST0-22" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="201.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-24" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-1" value="Muestra pantalla de éxito">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-25" parent="WYlN1orr9ME9OnIwrST0-24" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="163.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-26" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-1" value="Recibe enlace /verify?token=XYZ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-27" parent="WYlN1orr9ME9OnIwrST0-26" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="11" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="637.25" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-28" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-2" value="Clic en el enlace">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="274" y="802" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-29" parent="WYlN1orr9ME9OnIwrST0-28" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="12" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-177.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-30" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-3" value="POST /api/auth/verify { token }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-31" parent="WYlN1orr9ME9OnIwrST0-30" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="13" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-215.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-32" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="Busca y valida token">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-33" parent="WYlN1orr9ME9OnIwrST0-32" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="14" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-34" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="UPDATE User (is_verified: true)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="964" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-35" parent="WYlN1orr9ME9OnIwrST0-34" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="15" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-36" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-4" value="DELETE Token">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="1018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-37" parent="WYlN1orr9ME9OnIwrST0-36" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="16" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-157" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-38" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="curved=1;endArrow=block;rounded=0;" target="WYlN1orr9ME9OnIwrST0-3" value="Genera Access &amp; Refresh Tokens">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="902" y="1072" />
+              <mxPoint x="902" y="1102" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-39" parent="WYlN1orr9ME9OnIwrST0-38" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="17" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-40" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-2" value="200 OK (Set-Cookie: access_token, refresh_token)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="1156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-41" parent="WYlN1orr9ME9OnIwrST0-40" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="18" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="201.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-42" edge="1" parent="1" source="WYlN1orr9ME9OnIwrST0-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="WYlN1orr9ME9OnIwrST0-1" value="Redirige a Dashboard (Sesión iniciada)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-43" parent="WYlN1orr9ME9OnIwrST0-42" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="19" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="163.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYlN1orr9ME9OnIwrST0-44" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="El usuario abre su correo" vertex="1">
+          <mxGeometry height="49" width="1338" x="70" y="665" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

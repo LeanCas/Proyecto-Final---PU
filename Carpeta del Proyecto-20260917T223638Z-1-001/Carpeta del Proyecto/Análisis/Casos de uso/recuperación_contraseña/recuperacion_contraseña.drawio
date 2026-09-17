@@ -1,0 +1,215 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="nyJnbgKUjCBpvMlufO0T">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j1I4aZysh_6oyICLmtrc-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Usuario" vertex="1">
+          <mxGeometry height="1106" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend (React)" vertex="1">
+          <mxGeometry height="1106" width="150" x="293" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Backend (Node.js)" vertex="1">
+          <mxGeometry height="1106" width="150" x="752" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Base de Datos (PostgreSQL)" vertex="1">
+          <mxGeometry height="1106" width="215" x="1110" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servicio Email" vertex="1">
+          <mxGeometry height="1106" width="150" x="1375" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-6" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="155" width="645" x="816" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-7" parent="j1I4aZysh_6oyICLmtrc-6" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Usuario Existe]" vertex="1">
+          <mxGeometry height="20" width="615" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-8" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-2" value="Ingresa Email en &quot;Recuperar&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-9" parent="j1I4aZysh_6oyICLmtrc-8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-144" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-10" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-3" value="POST /api/auth/forgot-password">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="606" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-11" parent="j1I4aZysh_6oyICLmtrc-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-237" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-12" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="SELECT User por email">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-13" parent="j1I4aZysh_6oyICLmtrc-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-14" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="INSERT Token (tipo: reset_pwd, exp: 15m)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-15" parent="j1I4aZysh_6oyICLmtrc-14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-16" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-5" value="Enviar Email de Recuperación">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1147" y="392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-17" parent="j1I4aZysh_6oyICLmtrc-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-318.75" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-18" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-2" value="200 OK (&quot;Si el correo existe, enviamos un link&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="609" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-19" parent="j1I4aZysh_6oyICLmtrc-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="223" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-20" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-2" value="Ingresa nueva contraseña">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-21" parent="j1I4aZysh_6oyICLmtrc-20" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-144" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-22" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-3" value="POST /api/auth/reset-password { token, newPassword }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="606" y="613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-23" parent="j1I4aZysh_6oyICLmtrc-22" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-237" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-24" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="Busca y valida Token (vigencia)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-25" parent="j1I4aZysh_6oyICLmtrc-24" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-26" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="curved=1;endArrow=block;rounded=0;" target="j1I4aZysh_6oyICLmtrc-3" value="Genera nuevo Hash de Password">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="878" y="721" />
+              <mxPoint x="878" y="751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-27" parent="j1I4aZysh_6oyICLmtrc-26" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-28" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="UPDATE User (nuevo password)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-29" parent="j1I4aZysh_6oyICLmtrc-28" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="11" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-30" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="DELETE Token usado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-31" parent="j1I4aZysh_6oyICLmtrc-30" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="12" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-32" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-4" value="DELETE Refresh Tokens (Cierra otras sesiones)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="913" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-33" parent="j1I4aZysh_6oyICLmtrc-32" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="13" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-202.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-34" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-2" value="200 OK (Contraseña actualizada)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="609" y="967" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-35" parent="j1I4aZysh_6oyICLmtrc-34" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="14" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="223" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-36" edge="1" parent="1" source="j1I4aZysh_6oyICLmtrc-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="j1I4aZysh_6oyICLmtrc-1" value="Redirige a Login">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="1021" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-37" parent="j1I4aZysh_6oyICLmtrc-36" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="15" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="130" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1I4aZysh_6oyICLmtrc-38" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="Usuario abre el link del correo" vertex="1">
+          <mxGeometry height="49" width="1405" x="70" y="476" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
